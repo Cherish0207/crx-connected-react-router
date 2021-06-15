@@ -1,5 +1,5 @@
 import * as types from "../action-types";
-import { push } from "connected-react-router";
+import { push } from "../../connected-react-router";
 const counter = {
   increment() {
     return { type: types.ADD };

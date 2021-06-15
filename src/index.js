@@ -5,10 +5,10 @@ import Home from "./components/Home";
 import Counter from "./components/Counter";
 import store from "./store";
 import { Provider } from "react-redux";
-import { ConnectedRouter } from "connected-react-router";
+import { ConnectedRouter } from "./connected-react-router/index";
 import history from "./history";
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider store={store}> 
     <ConnectedRouter history={history}>
       <>
         <Link exact={true} to="/">
