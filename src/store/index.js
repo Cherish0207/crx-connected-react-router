@@ -1,4 +1,10 @@
-import { createStore } from "redux";
+import { applyMiddleware, createStore } from "redux";
+import { routerMiddleware } from "connected-react-router";
+import history from "../history";
 import rootReducer from "./reducers";
-const store = createStore(rootReducer);
+
+// routerMiddleware：拦截跳转路径的 action
+const store = applyMiddleware(routerMiddleware(history))(createStore)(
+  rootReducer
+);
 export default store;

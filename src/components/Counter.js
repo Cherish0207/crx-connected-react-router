@@ -8,6 +8,7 @@ class Counter extends React.Component {
         <p>{this.props.number}</p>
         <button onClick={this.props.increment}>+</button>
         <button onClick={this.props.decrement}>-</button>
+        <button onClick={()=>this.props.go('/')}>goBack</button>
       </>
     );
   }
