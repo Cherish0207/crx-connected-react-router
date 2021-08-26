@@ -1,3 +1,7 @@
+##
+
+[课件](file:///Users/cherish/Documents/%E7%8F%A0%E5%B3%B0/%E8%AF%BE%E4%BB%B6/%E5%85%B6%E4%BB%96%E8%AF%BE%E4%BB%B6/106.6.connected-react-router.html)
+
 ## connected-react-router
 
 > 连接 redux 和路由的工具
